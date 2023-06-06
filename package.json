@@ -1,0 +1,23 @@
+{
+  "name": "restaurantpagejs",
+  "version": "1.0.0",
+  "description": "restaurant page using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hs0774/restaurantPageJS.git"
+  },
+  "author": "hardeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hs0774/restaurantPageJS/issues"
+  },
+  "homepage": "https://github.com/hs0774/restaurantPageJS#readme",
+  "devDependencies": {
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3"
+  }
+}
