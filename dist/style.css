@@ -1,21 +1,12 @@
   /* Home  */
 
-  /* body{
-    background-image: url(images/restaurant.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
 .header{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: brown;
     color: whitesmoke;
-}
+}  
 
 .title{
     background-color: brown;
@@ -23,20 +14,18 @@
     display: flex;
     justify-content: space-around;
     color: whitesmoke;
-}    */
-
-
-
+}   
+  
 /* Contact */ 
 
-/* body {
-    background-image: url(images/contact.jpg);
+body {
+    /* background-image: url(images/contact.jpg); */
     background-size: cover;
     background-position: center;
     height: 100vh;
     margin: 0;
     padding: 0;
-  }
+}
 
 
 .contact-items{
@@ -48,27 +37,8 @@
     color: whitesmoke;
 }
 
-.title{
-    background-color: brown;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    color: whitesmoke;
-}  
- */
-
 /* Menu */
- 
- body {
-    background-image: url(images/menu.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-  } 
-
- .menu-items{
+.menu-items{
     display: grid;
     gap: 12px;
     grid-column: 1fr,1fr;
@@ -77,40 +47,46 @@
     padding-right: 15px;
 }
 
- .title{
-    background-color: brown;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    color: whitesmoke;
-} 
-
- .menu-items > div {
+.menu-items > div {
     background-color: brown;
     color: whitesmoke;
     height: 300px; 
     padding-left: 12px;
     padding-right: 12px;
     opacity: 70%; 
-}   
+} 
+
  .heading{
     display: flex;
     justify-content: center;
 }
+
 .items{
     display: flex;
     justify-content: space-around;
 }
+
 .bottom {
     grid-column: 1 / span 2;
     background-color: brown;
 }
+
 .bottom-container{
   display: flex;
   justify-content: space-around;
 }
+
 .items1{
     display: flex;
     justify-content: space-between;
     width: 320px;
-}   
+}    
+
+.home:hover,.contact:hover,.menu:hover{
+   color: black;
+   cursor: pointer;
+}
+
+.home:active,.contact:active,.menu:active{
+    color: grey;
+}

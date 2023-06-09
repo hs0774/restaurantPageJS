@@ -1,5 +1,19 @@
-import * as module from './initial-page-load.js'
+import {initialPageLoad} from './initial-page-load.js';
+import {menu} from './menu.js';
+import {contact} from './contact.js';
 
-console.log('hi');
 
-module.initialPageLoad();
+initialPageLoad();
+
+function tabSwitch() {
+  const homeTab = document.querySelector('.home');
+  homeTab.addEventListener('click', initialPageLoad);
+
+  const menuTab = document.querySelector('.menu');
+  menuTab.addEventListener('click', menu);
+
+  const contactTab = document.querySelector('.contact');
+  contactTab.addEventListener('click', contact);
+}
+tabSwitch();
+
